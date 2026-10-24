@@ -1,0 +1,87 @@
+name: pico
+description: Pico — neon pink on pure black, concise and a little kawaii
+
+colors:
+  banner_border: "#FF00A8"
+  banner_title: "#FF7AF0"
+  banner_accent: "#FF2BD6"
+  banner_dim: "#A0457F"
+  banner_text: "#F5EAF2"
+  ui_accent: "#FF2BD6"
+  ui_label: "#FF9CEB"
+  ui_ok: "#39FF88"
+  ui_error: "#FF4D6D"
+  ui_warn: "#FFD23F"
+  prompt: "#F5EAF2"
+  input_rule: "#6A0F4E"
+  response_border: "#FF2BD6"
+  session_label: "#FF9CEB"
+  session_border: "#5A4A55"
+  status_bar_bg: "#000000"
+  status_bar_text: "#E0CCDA"
+  status_bar_strong: "#FF2BD6"
+  status_bar_dim: "#8F5A80"
+  status_bar_good: "#39FF88"
+  status_bar_warn: "#FFD23F"
+  status_bar_bad: "#FF8C42"
+  status_bar_critical: "#FF4D6D"
+  voice_status_bg: "#000000"
+  selection_bg: "#6A0F4E"
+  completion_menu_bg: "#0D0D0D"
+  completion_menu_current_bg: "#55103F"
+  completion_menu_meta_bg: "#0D0D0D"
+  completion_menu_meta_current_bg: "#55103F"
+  shell_dollar: "#FF2BD6"
+
+spinner:
+  waiting_faces: ["(◕‿◕)", "(•ᴗ•)", "(｡•̀ᴗ-)", "(=^･ω･^=)", "(☆▽☆)"]
+  thinking_faces: ["(・_・?)", "(￣ー￣)", "(•̀ᴗ•́)", "(◔_◔)", "(⌐■_■)"]
+  thinking_verbs:
+    - "thinking"
+    - "reading"
+    - "on it"
+    - "fetching"
+    - "building"
+    - "checking"
+    - "zooming"
+    - "almost"
+  wings:
+    - ["⟪✦", "✦⟫"]
+    - ["⟪♡", "♡⟫"]
+    - ["⟪☤", "☤⟫"]
+
+branding:
+  agent_name: "Pico"
+  welcome: "Pico ready ☤ — /help for commands."
+  goodbye: "bye bye ☤"
+  response_label: " ☤ Pico "
+  prompt_symbol: "❯"
+  help_header: "(^_^)? Commands"
+
+tool_prefix: "│"
+
+banner_logo: |-
+  [bold #FF9CF5]██████╗ ██╗ ██████╗ ██████╗ [/]
+  [bold #FF7AF0]██╔══██╗██║██╔════╝██╔═══██╗[/]
+  [#FF4FE0]██████╔╝██║██║     ██║   ██║[/]
+  [#FF2BD6]██╔═══╝ ██║██║     ██║   ██║[/]
+  [#FF00A8]██║     ██║╚██████╗╚██████╔╝[/]
+  [#B0007A]╚═╝     ╚═╝ ╚═════╝ ╚═════╝ [/]
+
+banner_hero: |-
+  [#FFB3F7]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF9CF5]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠤⠤⠤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF8AF2]⠀⠀⠀⠀⡗⠢⣀⢀⡠⢒⡗⠉⠀⠀⠀⠀⠀⠀⠈⢹⢖⢄⡀⣀⠔⢺⠀⠀⠀⠀[/]
+  [#FF7AF0]⠀⠀⠀⡠⣧⡠⠒⠑⡶⣡⣧⠀⠀⠀⢠⢢⠀⠀⠀⢸⣢⠕⡎⠒⢄⣼⢄⠀⠀⠀[/]
+  [#FF66EA]⠀⢀⠎⠀⠁⠈⢆⡜⢠⠃⠁⢣⠀⢠⠃⠀⢣⠀⢠⠋⠀⢣⠘⡴⠁⠈⠀⠱⡀⠀[/]
+  [#FF4FE0]⠀⡜⠀⠀⠀⠀⢸⡥⢃⣀⣀⠤⠧⠇⠀⠀⠀⠧⠧⢄⣀⣀⢣⣳⠀⠀⠀⠀⢣⠀[/]
+  [#FF4FE0]⢀⠇⠀⠀⠀⠀⢸⢇⠀⠀⠰⣶⣄⠀⠀⠀⠀⠀⠰⣶⣄⠀⡸⢸⠀⠀⠀⠀⠸⡀[/]
+  [#FF3ADB]⢸⠀⠀⠀⠀⠀⠘⣼⠀⣷⣴⣿⣿⡇⠀⠀⠀⣷⣴⣿⣿⡇⡇⡜⠀⠀⠀⠀⠀⡇[/]
+  [#FF2BD6]⢸⠀⠀⠀⠀⠀⠀⢹⡀⠙⢿⣿⠞⠁⠀⠀⠀⠙⢿⣿⠞⠁⡷⠁⠀⠀⠀⠀⠀⡇[/]
+  [#FF2BD6]⢸⠀⠀⠀⠀⠀⠀⢸⠱⢔⠂⠀⠀⢀⠀⠀⢀⠀⠀⠀⢤⠖⡇⠀⠀⠀⠀⠀⠀⡇[/]
+  [#FF14C4]⠘⡄⠀⠀⠀⠀⠀⡜⠀⠀⠑⠤⣀⡀⠑⠑⠁⣀⡠⠔⠁⠀⢣⠀⠀⠀⠀⠀⢠⠃[/]
+  [#FF00A8]⠀⢇⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⡏⠉⠉⠉⡇⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⡸⠀[/]
+  [#E0009A]⠀⠘⡄⠀⠀⠀⡜⠀⠀⣀⢤⡒⠉⠀⠀⠀⠀⠈⠑⣢⢄⡀⠀⢣⠀⠀⠀⢠⠃⠀[/]
+  [#C2008A]⠀⠀⠈⠢⠤⠊⠀⢠⠋⠀⠀⠈⠢⢄⠀⠀⢀⠔⠊⠀⠀⠈⢣⠀⠑⠤⠔⠁⠀⠀[/]
+  [#A0006E]⠀⠀⠀⠀⠀⠀⢀⠎⠀⠀⠀⠀⠀⠠⣯⣮⡧⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀[/]
+  [dim #FF4FE0]⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠘⠟⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀[/]
